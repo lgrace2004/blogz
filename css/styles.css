@@ -55,6 +55,9 @@ hr {
     font-style: italic;
     font-size: 12px;
 }
+.login {
+    text-align-last: : right;
+}
 
 nav ul {
     padding: 0;
