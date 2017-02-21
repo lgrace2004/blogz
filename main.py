@@ -145,7 +145,7 @@ class NewPostHandler(BlogHandler):
             self.redirect("/blog/%s" % id)
         else:
             error = "we need both a title and a body!"
-            self.render_form(title, body, error)
+            self.render_form(title, body, author, error)
 
 class ViewPostHandler(BlogHandler):
 
